@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.right_dw_cen{ height:auto;}
+.right_dw_cen .dyh2{ height:auto;}
+.right_dw_cen .dyh2 .biaoti{ float:left; font-size:20px; color:#333333;}
+
+.sousu2{ float:right; margin-left:5%; position:relative;}
+.sousu2 input{ background:url(../images/suosu_bg.png) no-repeat; color:#fff; font-size:14px; text-align:center; width:140px; height:40px; outline:none; border:none; cursor:pointer;font-family: "Microsoft YaHei";}
+.sousu2 .zxgs{ color:#fff; width:20px; height:20px; background:url(../images/xegs_ml.png) no-repeat; line-height:20px; text-align:center; font-size:14px;font-family: "Microsoft YaHei"; position:absolute; top:-10px; right:12px;}
+
+.duwb{ font-size:14px; color:#78909c;font-family: "Microsoft YaHei"; float:right; line-height:40px; margin-left:4%; position:relative;}
+.duwb img{ margin-left:15px;}
+.duwb .xl_xz{ width:98px; height:95px; background:url(../images/paixu_ml.png) no-repeat; position:absolute; top:30px; right:-9px; display:none; z-index:99;}
+.duwb .xl_xz ul{ height:80px; overflow:hidden; margin-top:6px;}
+.duwb .xl_xz ul li{ text-align:center; line-height:40px; margin:0 auto; width:74px; border-bottom:1px solid #e9edef; margin-left: 13px;}
+.duwb .xl_xz2{ width:104px; height:127px; background:url(../images/dwb_ml.png) no-repeat; position:absolute; top:30px; right:-9px; display:none; z-index:99;}
+.duwb .xl_xz2 ul{ height:163px; overflow:hidden; margin-top:6px;}
+.duwb .xl_xz2 ul li{ text-align:center; line-height:40px; margin:0 auto; width:88px; border-bottom:1px solid #e9edef; margin-right: 9px;}
+
+.lb_ml{ width:100%; margin-top:3%;font-family: "Microsoft YaHei"; height:100%; overflow:hidden;}
+.liblh{ width:100%; overflow:hidden;}
+.liblh ul li{ width:31.8%; height:35%; background:#ffffff; border-radius:3px; float:left; margin-right:2%; margin-bottom:2%;}
+.liblh ul li:nth-child(3n){margin-right:0;}
+.liblh ul li img{ margin-right:6px; vertical-align:middle;}
+.lb_top{ padding:0 5%; padding-bottom:7%; padding-top:6%; position:relative; }
+.bg_black{ position:absolute; top:0px; left:0px; background:rgba(0,0,0,0.5); width:100%; height:100%; display:none;}
+.bg_black p{ font-size:16px; color:#ffffff !important; text-align:center;font-family: "Microsoft YaHei";}
+.bg_black img{ margin:39% 42% 2% 42%;}
+.lb_top p{ font-size:16px; color:#333333;font-family: "Microsoft YaHei";}
+.lb_top .deh{ color:#78909c; font-size:14px; margin-top:3%; height:auto; overflow:hidden;}
+.lb_top .deh .deh_l{ float:left; margin-right:8%;}
+.lb_top .deh .deh_r{ float:left;}
+.lb_top .pic_m{ background:#eaeef0; width:100%; margin-top:7%; margin-bottom:7%;}
+.lb_top .pic_m img{ width: 100%; height: 100%;}
+.lb_top .dsih{ font-size:12px; color:#78909c;}
+.lb_top .dwuh{ font-size:12px;font-family:"Helvetica"; color:#78909c; margin-top:2%;}
+.lb_dw{border-top:1px solid #e9edef; height:auto; overflow:hidden;}
+.lb_dw .xzj{ float:left; font-size:14px; color:#78909c; width:49%; text-align:center; margin:5% 0; border-right:1px solid #e9edef;}
+.lb_dw .xzj img{ vertical-align:bottom; margin-right:15px;}
+.lb_dw .xzj2{ float:left; font-size:14px; color:#78909c; width:49%; text-align:center; margin:5% 0;}
+.lb_dw .xzj2 img{ vertical-align:bottom; margin-right:15px;}
+
+.active5{ border:1px solid #23a86c;}
+.bg_lv{ background:#e9f6f0;}
+.dl_zuxe{ z-index:99;}
+.mouse{border:1px solid #23a86c;}
+.lb_dw .xzj.aa{color:#23a86c !important;}

@@ -1,0 +1,25 @@
+{ "auths":
+  [
+    { "id": "sysManage", "pId": 0, "name": " 系统管理", "open": true },
+    { "id": "userManage", "pId": "sysManage", "name": "系统用户管理", "open": true },
+    { "id": "roleManage", "pId": "sysManage", "name": "权限管理", "open": true },
+    { "id": "logManagement", "pId": "sysManage", "name": "日志管理", "open": true },
+
+    { "id": "exhibit", "pId": 0, "name": "陈列管理", "open": true },
+    { "id": "awardTrace", "pId": "exhibit", "name": "奖励跟踪", "open": true },
+    { "id": "awardSearch", "pId": "exhibit", "name": "奖励查询", "open": true },
+
+    { "id": "content", "pId": 0, "name": "内容管理", "open": true },
+    { "id": "messManage", "pId": "content", "name": "消息管理", "open": true },
+    { "id": "materialManage", "pId": "content", "name": "素材查询", "open": true },
+
+    { "id": "bill", "pId": 0, "name": "账单管理", "open": true },
+    { "id": "tradeSearch", "pId": "bill", "name": "交易查询", "open": true },
+    { "id": "billCount", "pId": "bill", "name": "账单统计", "open": true },
+    { "id": "billChk", "pId": "bill", "name": "对账单管理", "open": true },
+
+    { "id": "com", "pId": 0, "name": "商户管理", "open": true },
+    { "id": "wechatManage", "pId": "com", "name": "微信用户信息管理", "open": true },
+    { "id": "comGroup", "pId": "com", "name": "商户分组", "open": true }
+  ]
+}

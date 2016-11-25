@@ -1,0 +1,42 @@
+
+
+.date_selector{ width:200px !important; padding:0 !important}
+.date_selector .month_name, .date_selector .year_name{ font-size:14px; font-weight:normal !important; color:#78909c;}
+.date_selector .month_name, .year_name{ width:87px!important;}
+.date_selector .nav{background:#ffffff;border-radius:2px 2px 0px 0px;width:196px;height:30px; overflow:hidden; border-top:1px solid #e6ecef;border-bottom:1px solid #e6ecef; line-height:30px;}
+.date_selector .button{ color:#78909c !important; border:none !important; line-height:30px !important}
+.date_selector, .date_selector * tr:nth-child(1){ background:#ffffff; line-height:35px; margin-bottom:3px; }
+.date_selector th, .date_selector>tr:nth-child(1)>td{color:#78909c !important;}
+.date_selector td.selected{background:rgba(35,168,108,0.1) !important; color:#78909c !important; font-weight:normal !important}
+.date_selector td.selectable_day:hover, .date_selector td.selectable_day.hover{background:rgba(35,168,108,0.1) !important;color: #fff;}
+.date_selector th, .date_selector td{ height:20px !important}
+.date_selector td{ line-height:20px !important; font-size:12px !important}
+
+
+
+.date_picker{width:70%; height:30px;border:none;font-size:14px; padding-left:2%;}
+/*---------------------------------------demo css--------------------------------------------*/
+.date_selector, .date_selector *{width: auto;height: auto;border: none;background: none;margin: 0;padding: 0;text-decoration: none;}
+.date_selector{background:#ffffff;padding: 10px;margin:0;margin-top:25px;position: absolute;top:0px !important; left:0% !important ;z-index:100000;display:none;border-radius: 6px;box-shadow:0px 0px 10px 1px #EDECEC;box-shadow:0px 0px 10px 1px #EDECEC; width:10.7%;}
+.date_selector_ieframe{position: absolute;z-index: 99999;display: none;}
+.date_selector .nav{width:100%;}
+.date_selector .nav p{clear: none;}
+.date_selector .month_nav, .date_selector .year_nav{margin: 0 0 3px 0;padding: 0;display: block;position: relative;text-align: center;}
+.date_selector .month_nav{float: left;width: 52%;}
+.date_selector .year_nav{float: right;width: 45%;}
+.date_selector .month_name, .date_selector .year_name{font-weight: bold;line-height: 32px;}
+.date_selector .button{display: block;position: absolute;top: 0;width:18px;height:30px;line-height:16px;font-weight:bold;color:#5985c7;text-align: center;font-size:14px;overflow:hidden;border: 1px solid #ccc;border-radius:2px; cursor:pointer;}
+.date_selector .button:hover, .date_selector .button.hover{}
+.date_selector .prev{left: 0;}
+.date_selector .next{right: 0;}
+.date_selector table{border-spacing: 0;border-collapse: collapse;clear: both;margin: 0; width:100%;}
+.date_selector th, .date_selector td{width: 2.5em;height: 2em;padding: 0 !important;text-align: center !important;color: #666;font-weight: normal;}
+.date_selector th{font-size: 12px;}
+.date_selector td{line-height:20px;text-align: center;white-space: nowrap;color:#78909c;background: #fff; width:20px; margin:1px 4px;}
+.date_selector td.today{background: #eee;}
+.date_selector td.unselected_month{color: rgba(120,144,156,0.5);}
+.date_selector td.selectable_day{cursor: pointer;}
+.date_selector td.selected{background:#faa94c;color: #fff;font-weight: bold;}
+.date_selector td.selectable_day:hover, .date_selector td.selectable_day.hover{background:#faa94c;color: #78909c;}
+
+

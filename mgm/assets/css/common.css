@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font-size:12px; padding:0px; margin:0px;font-family:"微软雅黑";}
+* { margin:0px; padding:0px;}
+ul{ list-style-type:none;}
+li{ list-style-type:none;}
+a{ text-decoration:none; color:inherit;}
+img{ border:0px;}
+
+/*设置浮动和清除浮动*/
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{ clear:both;}
+
+.center{ width:100%; min-width:1366px; min-height:768px; height:auto; position:absolute; overflow:hidden;}
+
+
+/*左侧菜单*/
+.left{ width:13%; min-height:768px; background:#fefefe; height:100%; position:absolute; z-index:99; box-shadow:0px 20px 20px 20px #f2f2f2;}
+.left .logo{ width:70%; margin:10% auto;}
+.left .logo img{ width:100%;}
+.left .menu{margin:0 auto; margin-top:22%;}
+.left .menu .active{ border-left:3px solid #23a86c}
+.left .menu img{ margin-right:15%; vertical-align: bottom; margin-left:7%; float:left;}
+.left .menu ul li{ font-size:14px; color:#78909c;}
+.left .menu ul li .menua_a{ padding:13% 0 21% 12%;}
+.left .menu ul li .cdyj{ float:left; font-weight:bold;}
+.left .menu ul li .jt_xl{ margin:0; float:right; margin-top:3%; margin-right:12%;}
+.ejcasa{ display:none;}
+
+/*修改*/
+.ejcasa .lvse{ background:#23a86c; color:#ffffff !important;}
+.ejcasa .lvss{ background:#23a86c; color:#ffffff !important;}
+.ejcasa ul li span{ margin-left:28px;}
+.ejcasa ul li{ padding-bottom:5%; margin-left:15%; padding-left:10%; padding-top:5%; margin-right:10%}
+/*修改结束*/
+
+.ejcasa .lvse img{ opacity:1;}
+.ejcasa .lvss img{ opacity:1;}
+.ejcasa ul li img{ margin-right:15% !important; margin-left:0 !important; vertical-align:middle; margin-top:3px; opacity:0;}
+
+
+/*右侧头部*/
+.right{ width:87%; min-height:768px; background:#f4f7f9; height:auto;}
+.right_top{ width:100%;height:auto; overflow:hidden; background:#fefefe;}
+.right_top .dl_ml{ margin:2% 2% 2% 0; float:right; width:10%;}
+.right_top .dl_ml img{ margin-right:16%; float:left; vertical-align:middle;}
+.right_top .dl_ml .yhm{ float:left; font-size:14px; margin-top:2%; font-family:"Helvetica"; font-weight:bold;}
+.right_top .dl_ml .delu_xl{ float:left; margin-top:6%; margin-right:0; margin-left:12%;}
+.right_top .fh_jt{ float:left; margin-left:34px; margin-top:2%;}
+
+/*右侧中间内容*/
+.right_dw{ padding:6% 8%; position:relative; height:100%;background:#f4f7f9;}
+
+/*顶部登陆选择*/
+.dl_zuxe{ width:125px; height:137px; background:url(../images/delu_xuze.png) no-repeat; position:absolute; top:0px; right:3%; overflow:hidden; display:none; z-index:99;}
+.dl_zuxe ul{ margin-top:5px;}
+.dl_zuxe ul li{ color:#78909c; font-size:14px; line-height:40px; border-bottom:1px solid #e9edef; text-align:center; width:105px; margin:0 auto;}
+.dl_zuxe .active{ background:#e9f6f0;}
+
+
+/*页码*/
+.yema{height:auto; overflow:hidden; font-size:14px; color:#78909c; width:395px; margin:4% auto 0;}
+.yema_l{ width:72px; height:32px; background:url(../images/1_13.png) no-repeat; line-height:32px; text-align:center; float:left; margin:0 3px; color:#cccccc; cursor:pointer;}
+.yema_l img{ vertical-align:middle; margin-right:4px;}
+.ymsuzi{ width:32px; height:32px; background:url(../images/yema_bg_hui.png) no-repeat; text-align:center; line-height:32px; float:left; margin:0 3px; cursor:pointer;}
+.yema .active{ color:#23a86c; background:url(../images/yema_bg_lv.png) no-repeat;}
+.yema .slh{ line-height:32px; color:#78909c; float:left;}
+.yema_r{ width:72px; height:32px; background:url(../images/1_13.png) no-repeat; line-height:32px; text-align:center; float:left; margin:0 3px; cursor:pointer;}
+.yema_r img{ vertical-align:middle; margin-left:4px;}

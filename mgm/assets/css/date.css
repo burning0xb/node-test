@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font-size:12px; padding:0px; margin:0px;font-family:"微软雅黑"; position:absolute; width:100%; height:100%;}
+* { margin:0px; padding:0px;}
+ul{ list-style-type:none;}
+li{ list-style-type:none;}
+a{ text-decoration:none; color:inherit;}
+img{ border:0px;}
+
+/*设置浮动和清除浮动*/
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{ clear:both;}
+
+
+.date{width:90%; height:auto; margin:10% auto 0;min-width:1366px; min-height:768px;}
+
+/*下拉*/
+
+.xl_ml{ color:#78909c; float:left; width:300px; float:left; margin-top:10px;}
+.shmc{ float:left; color:#78909c; font-family:"Microsoft YaHei"; margin-right:7px;font-size:14px;}
+
+.inout{ float:left; position:relative;font-family:"Helvetica";}
+.inout img{vertical-align:middle;}
+/*修改select样式*/
+
+.select-zhong{
+    width: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.select .option{
+    border-radius: 2px;
+    width: 199px;
+    background: #eeeeee;
+    padding-top: 0;
+    padding-right: 25px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    font-family: "Microsoft YaHei";
+}
+
+.option-box-zhong{
+     width: 192px;
+
+}
+
+
+/*下拉菜单 控件*/
+.select{
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "Microsoft YaHei";
+    position: absolute;
+	top:0px; left:0px;
+	font-size:14px;
+	color:#78909c;
+	text-align:left;
+}
+.select:hover{
+    cursor: default;
+}
+.option-box{
+    display: none;
+    margin-top: 1px;
+    overflow: inherit;
+    position: absolute;
+    z-index: 999;
+    overflow: auto;
+    overflow-x: hidden;
+	border-radius:8px;
+	margin-top:26px;
+	box-shadow:0px 0px 10px 1px #EDECEC;
+	margin-left:4px;
+}
+
+.option-box-long{
+    width: 350px;
+}
+.option-box-short{
+     width: 125px;
+
+}
+.select-short{
+    width: 90px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+
+.select-long{
+ width:315px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.select .option{
+    border-radius: 2px;
+    width: 144px;
+    background: #ffffff;
+    padding-top: 0;
+    padding-bottom: 0;
+	padding-left:24px;
+    border-bottom: 1px solid #e9edef;
+    font-family: "Microsoft YaHei";
+}
+
+.select-long>.option-box>.option{
+    width: 327px;
+}
+.select .option:hover{
+    background: #e9f6f0;
+}
+
+.option-box li{
+    line-height: 38px;
+}
+.selected{
+    line-height: 30px;
+}
+
+.selected-box{border-bottom:1px solid #bbc7cd; float:left; width:100%;}
+.jt_top{ position:absolute; bottom:-26px; left:95px; width:10px; height:4px; background:url(../images/sjjt_top.png) no-repeat; display:none; z-index:999}
+
+.selected-box .ab{ float:left; width:92%;}
+.xljt_js img{float:right; position:absolute; right:0px; top:7px;}
+
+
+/*日历*/
+.rili{ float:left; margin-top:10px;}
+.time{ float:left; height:20px; border-bottom:1px solid #bbc7cd; width:200px; position:relative;}
+.time img{ vertical-align:middle; margin-bottom:5px;}
+.time input{ background:none; font-family:"Helvetica"; font-size:14px; color:#333333; outline:none; border:none; background:#fff; width:168px; margin-left:6px;}
+
+
+/*按钮*/
+.anniu_nohive{ float:left; width:140px; height:40px; background:url(../images/suosu_bg.png) no-repeat; margin-left:5%;}
+.anniu_nohive input{ font-size:14px; color:#ffffff; margin-left:10px; width:120px; height:40px; outline:none; cursor:pointer; background:none; border:none;font-family: "Microsoft YaHei";}
+
+
+
+
+

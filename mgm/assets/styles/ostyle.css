@@ -1,0 +1,74 @@
+.comp-back{
+  background: url(../images/banner_1.jpg);
+  height:294px;
+}
+.comp-title{
+  font-size: 16px;
+  color: #0ba7eb;
+}
+.comp-introduction {
+  margin-top: 10px;
+}
+.comp-introduction p {
+  text-indent: 34px;
+  line-height: 24px;
+  color: #999;
+  font-size: 16px;
+  margin: 0 10px;
+  letter-spacing: 1px;
+}
+.download-info{
+  width: 100%;
+  margin-top: 30px;
+  border: 1px solid #dedede;
+  background: #fff;
+  padding: 15px 25px;
+  overflow: hidden;
+}
+.download-info ul{
+
+}
+.download-info ul li{
+  line-height: 50px;
+  padding-bottom: 12px;
+  width: 100%;
+  height: 51px;
+  padding: 0 35px 0 50px;
+  position: relative;
+}
+.download-info ul li div{
+  float:left;
+  display: inline-block;
+  width:25%;
+}
+.download-info ul li div:first-child{
+  width: 50%;
+}
+.download-info ul li div span{
+  display: inline-block;
+  height: 50px;
+  text-align: left;
+  font-size: 13px;
+  right: 35px;
+  top: 0;`
+}
+.download-info ul li div a{
+  background: url(../images/download.png) left center no-repeat;
+  width: 30px;
+  float: left;
+}
+.download-info ul li:first-child div span{
+  display: inline-block;
+  width: 90px;
+  height: 50px;
+  text-align: left;
+  font-size: 18px;
+  right: 35px;
+  top: 0;`
+}
+.download-info ul li:first-child{
+  border-bottom:1px solid #CCC;
+}
+.h800{
+  height: 720px;
+}

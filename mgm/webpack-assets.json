@@ -1,0 +1,15 @@
+{
+  "javascript": {
+    "main": "http://172.40.0.102:3001/dist/main-8d4b07226ec12fb50217.js",
+    "roleadd": "http://172.40.0.102:3001/dist/roleadd-db3873cbed9b0d47a592.js",
+    "LogManagement": "http://172.40.0.102:3001/dist/LogManagement-9a921112fed3783ab01f.js",
+    "WechatUserSearch": "http://172.40.0.102:3001/dist/WechatUserSearch-026568618107b543f740.js",
+    "SearchTrade": "http://172.40.0.102:3001/dist/SearchTrade-de16f6a4a2c633c14c99.js",
+    "MaterialManage": "http://172.40.0.102:3001/dist/MaterialManage-1305cf595413918e5a62.js",
+    "BonusTrack": "http://172.40.0.102:3001/dist/BonusTrack-389a756f51c94b58f21d.js",
+    "Register": "http://172.40.0.102:3001/dist/Register-6fde20b72303c10acece.js",
+    "vendor": "http://172.40.0.102:3001/dist/vendor.js"
+  },
+  "styles": {},
+  "assets": {}
+}

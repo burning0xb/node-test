@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+.right_dw_cen{ height:auto;}
+.right_dw_cen .dyh5{ height:40px;}
+.right_dw_cen .dyh5 .biaoti{ float:left; font-size:20px; color:#333333;font-family: "Microsoft YaHei";}
+
+.js_age{ width:100%; margin-top:3%;font-family: "Microsoft YaHei"; height:100%; overflow:hidden;}
+
+/*左侧*/
+.js_l{ float:left; width:49%; height:675px; background:#ffffff; margin-bottom:20%; border-radius:5px;}
+.js_l_top{ padding:3% 7% 10% 7%; border-bottom:1px solid #d6dde1;}
+.js_l_top_l{ float:left; font-size:16px; color:#333333; margin-top:3%;}
+.js_l_top_l img{ vertical-align:bottom; margin-right:20px;}
+.js_l_top_r{ float:right; width:65px; height:44px; background:url(../images/3_bj_bg.png) no-repeat;}
+.js_l_top_r:hover{ float:right; width:65px; height:44px; background:url(../images/3_bj_bg1.png) no-repeat;}
+.js_l_top_r img{ margin-left:35%; margin-top:18%;}
+.js_l_dw{ margin:0px 0px 20px 42px; height:566px; position:relative;}
+.wuxian{ height:auto; margin-right:15px;}
+.jslb_ml{ line-height:80px; border-bottom:1px solid #e6ecef; font-size:14px; height:80px; padding-right:40px;}
+.jslb_ml .ygjs{ float:left; width:74%;}
+.jslb_ml .gly{ color:#78909c; float:left; width:140px; height:80px;}
+.jslb_ml .ids{ color:#333333; float:left; width:100px;}
+.jslb_ml .ids .aa{ float:left; color:#78909c; font-family:"Helvetica"; margin-right:5px;}
+.jslb_ml .qxlb{ float:right; width:26%;}
+.jslb_ml .ckqx{ float:right; color:#78909c; cursor:pointer;}
+.jslb_ml .fg{ float:right; margin:0 6%;}
+.jslb_ml .fg img{vertical-align:middle;}
+.jslb_ml .sc{ float:right; color:#78909c; cursor:pointer;}
+.jslb_ml .fg_l{ float:left; margin:0 4%;}
+.jslb_ml .fg_l img{vertical-align:middle;}
+
+/*右侧*/
+.js_r{ float:right; width:49%; background:#ffffff; height:auto; overflow:hidden; border-radius:5px;font-family: "Microsoft YaHei";}
+.js_l_top_r input{ outline:none; border:none; background:none; font-size:14px; color:#78909c;font-family: "Microsoft YaHei"; margin-left:29%; margin-top:18%;}
+.js_r_dw ul li{ margin-bottom:5px;}
+.js_r_dw ul li:hover .zong{ background:rgba(35,168,108,0.1);}
+.js_r_dw ul li .zong{ width:100%; height:60px; border-left:6px solid #23a86c;}
+.js_r_dw ul li .anniu{ float:left; margin-left:32px; line-height:60px; margin-right:7%;}
+.js_r_dw ul li .anniu img{ vertical-align:middle;}
+.js_r_dw ul li .yiji{ float:left; line-height:60px; font-size:14px; color:#78909c; width:24%;}
+.js_r_dw ul li .yiji img{ vertical-align:middle; margin-right:20%;}
+.js_r_dw ul li .erji{ height:auto; overflow:hidden; display:none;}
+.js_r_dw ul li .erji ul li{ height:40px; border-left:none; margin-bottom:0px;}
+.js_r_dw ul li .erji ul li .li_l{ width:170px; height:39px; border-bottom:1px solid #e6ecef;border-left:1px solid #e6ecef; margin-left:46px; float:left; margin-top:-18px;}
+.js_r_dw ul li .erji ul li .li_r{ float:left; font-size:14px; color:#78909c; line-height:40px; margin-left:12px; width:50%;}
+.js_r_dw ul li .erji ul li .li_r img{ vertical-align:middle; margin-right:6%;}
+
+
+
+/*下拉*/
+.inout{ float:left; position:relative;font-family:"Helvetica";}
+.inout img{vertical-align:middle;}
+/*修改select样式*/
+
+.select-zhong{
+    width: 140px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.select-zhong1{
+    width: 80px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+
+.select .option{
+    border-radius: 2px;
+    width: 199px;
+    background: #eeeeee;
+    padding-top: 0;
+    padding-right: 25px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    font-family: "Microsoft YaHei";
+}
+
+.option-box-zhong{
+     width: 135px;
+    width: 199px\9;
+
+}
+.option-box-zhong1{
+     width: 76px;
+    width: 199px\9;
+
+}
+
+/*下拉菜单 控件*/
+.select{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "Microsoft YaHei";
+    position: absolute;
+	top:0px; left:0px;
+	font-size:14px;
+	color:#333333;
+	margin-top:25px;
+}
+.select:hover{
+    cursor: default;
+}
+.option-box{
+    display: none;
+    margin-top: 1px;
+    overflow: inherit;
+    position: absolute;
+    z-index: 999;
+    overflow: auto;
+    overflow-x: hidden;
+	border-radius:8px;
+	margin-top:30px;
+	box-shadow:0px 0px 10px 1px #EDECEC;
+	margin-left:4px;
+}
+
+.option-box-long{
+    width: 350px;
+    width: 352px\9;
+}
+.option-box-short{
+     width: 125px;
+    width: 125px\9;
+
+}
+.select-short{
+    width: 90px;
+    background-image: url("../images/selectbg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+
+.select-long{
+ width:315px;
+    background-image: url("../images/selectlongbg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.select .option{
+    border-radius: 2px;
+    width: 92px;
+    background: #ffffff;
+    padding-top: 0;
+    padding-bottom: 0;
+	padding-left:18px;
+    border-bottom: 1px solid #e9edef;
+    font-family: "Microsoft YaHei";
+}
+
+.select-long>.option-box>.option{
+    width: 327px;
+    width: 318px\9;
+}
+.select .option:hover{
+    background: #e9f6f0;
+}
+
+.option-box li{
+    line-height: 38px;
+}
+.selected{
+    line-height: 30px;
+}
+
+.selected-box{ height:24px; border-bottom:1px solid #bbc7cd; float:left; width:100%;}
+.jt_top{ position:absolute; bottom:-55px; left:64px; width:10px; height:4px; background:url(../images/sjjt_top.png) no-repeat; display:none; z-index:999}
+.jt_top1{ position:absolute; bottom:-55px; left:37px; width:10px; height:4px; background:url(../images/sjjt_top.png) no-repeat; display:none; z-index:999}
+
+
+.selected-box .ab{ float:left; width:92%;}
+.selected-box .ab1{ float:left; width:87%;font-family:"Helvetica";}
+.xljt_js img{float:right; position:absolute; right:0px; top:11px;}
+
+.select .option .sz{font-family:"Helvetica";}
+.select .option1{
+    border-radius: 2px;
+    width: 77px;
+    background: #ffffff;
+    padding-top: 0;
+    padding-bottom: 0;
+	padding-left:0px;
+    border-bottom: 1px solid #e9edef;
+    font-family: "Microsoft YaHei";
+	text-align:center;
+}
+.select .option1:hover{
+    background: #e9f6f0;
+}
+.xinzeng{ float:left; margin-left:0%; margin-bottom:15px;}
+.xinzeng input{ background:url(../images/suosu_bg.png) no-repeat; color:#fff; font-size:14px; text-align:center; width:140px; height:40px; outline:none; border:none; cursor:pointer;font-family: "Microsoft YaHei";}

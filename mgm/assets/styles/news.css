@@ -1,0 +1,103 @@
+/* 常见问题 */
+.block-help-center .block-ask{
+  width:981px;
+  float:right;
+   border:1px solid #ddd;
+   overflow:hidden;
+   margin-bottom:130px;
+   padding-bottom:90px;
+   background:#fff;
+}
+.newsList-left {
+  height:130px;
+  width: 450px;
+  margin-top: 40px;
+  float: left;
+}
+.newsList-left p{
+  text-indent: 0px;
+  line-height: 22px;
+  color: #999;
+  font-size: 14px;
+  margin: 0 24px;
+  letter-spacing: 1px;
+}
+.newsList-left div{
+  height: 80px;
+  width: 270px;
+  float: right;
+  margin-top: 5px;
+  /*background: url(../../assets/images/shownews.png) 0 0px no-repeat;*/
+}
+.newsList-left div span{
+  margin-left: 25px;
+  font-weight: bolder;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.newsList-left .url{
+  height:50px;
+  width: 270px;
+  float: right;
+}
+.newsList-right {
+  height:130px;
+  width: 450px;
+  margin-top: 40px;
+  float: right;
+}
+.newsList-right p{
+  text-indent: 0px;
+  line-height: 22px;
+  color: #999;
+  font-size: 14px;
+  margin: 0 24px;
+  letter-spacing: 1px;
+}
+.newsList-right div{
+  height: 80px;
+  width: 270px;
+  float: right;
+  margin-top: 5px;
+  /*background: url(../../assets/images/shownews.png) 0 0px no-repeat;*/
+}
+.newsList-right div span{
+  margin-left: 25px;
+  font-weight: bolder;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.newsList-left .url{
+  height:50px;
+  width: 270px;
+  float: right;
+}
+.show-more{
+  text-align: center;
+  cursor: pointer;
+  background-color: #0ba7eb;
+  width: 102px;
+  height: 28px;
+  line-height: 29px;
+  margin: auto;
+  font-size: 14px;
+  float: right;
+  color: #FFFFFF;
+  margin-right: 15px;
+}
+.asker-question-con-news:{
+  display: block;
+  width:980px;
+  padding: 20px 28px 28px 28px;
+  background: #ffffff;
+  margin:auto;
+  margin-bottom: 50px;
+}
+.yd-intro-news p{
+  width:980px;
+  background: #ffffff;
+  color:#565656;
+  font-size:14px;
+  text-indent:30px;
+  line-height:22px;
+}

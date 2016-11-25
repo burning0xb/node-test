@@ -1,0 +1,12 @@
+export { default as application } from './application';
+export { default as menu } from './menu';
+export { default as role } from './role';
+export { default as user } from './user';
+export { default as users } from './users';
+export { default as register } from './register';
+export { default as bail } from './controller/bail';
+export { default as bonus } from './bonus';
+export { default as wechatUser } from './wechatUser';
+export { default as material } from './material';
+export { default as msg } from './msg';
+export { default as system } from './system';

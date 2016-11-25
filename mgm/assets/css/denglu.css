@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.dl_nr{ background:#f4f7f9; width:100%; height:100%; position:absolute; top:0px; left:0px;min-width:1366px; min-height:768px;font-family: "Microsoft YaHei";}
+.dl_br_bg{ background:url(../images/denglu_bg.png) no-repeat; background-size:cover;width:100%;}
+.denglu{ padding-top:5%; padding-bottom:9%;}
+.denglu p{ text-align:center; font-size:24px; color:#fff; line-height:15px;}
+.yhm{ background:url(../images/denglu_input.png) no-repeat; width:398px; height:60px; margin:0 auto; box-shadow:0px 0px 20px 1px rgba(255,216,169,0.7); border-radius:30px; margin-top:12px;}
+.yhm input{width:345px; height:58px; outline:none; border:none; background:none; margin-left:25px; font-size:18px; color:rgba(0,0,0,0.4); line-height:58px;font-family: "Microsoft YaHei";}
+.pd{ width:398px; margin:0 auto; height:34px;}
+.pada{ margin-left:24px; line-height:34px; font-size:14px; color:#fff; display:none;}
+.pada img{ vertical-align:middle; margin-right:8px;}
+.dl_an{ margin:0 auto; background:url(../images/denglu_anniu.png) no-repeat; box-shadow:0px 0px 20px 1px rgba(255,216,169,0.7); border-radius:30px; width:398px; height:60px; margin-top:9px;}
+.dl_an input{width:345px; height:58px; outline:none; border:none; background:none; margin-left:25px; font-size:18px; color:rgba(0,0,0,0.8); line-height:58px;font-family: "Microsoft YaHei"; cursor:pointer;}
+
+
+
+
+
+
+
